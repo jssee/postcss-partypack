@@ -4,6 +4,10 @@ const postcss = require('postcss');
 
 const PLUGINS = [
 	{
+		option: 'import',
+		module: require('postcss-import')
+	},
+	{
 		option: 'aspectRatio',
 		module: require('postcss-aspect-ratio')
 	},
@@ -14,10 +18,6 @@ const PLUGINS = [
 	{
 		option: 'getColor',
 		module: require('postcss-get-color')
-	},
-	{
-		option: 'import',
-		module: require('postcss-import')
 	},
 	{
 		option: 'propertyLookup',
