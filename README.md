@@ -8,4 +8,7 @@
 | postcss-extend-rule | `true` |
 | postcss-import | `true` |
 | postcss-property-lookup | `true` |
-| rucksack | `true` |
+| postcss-cleafix | `true` |
+| postcss-responsive-type | `true` |
+| postcss-hexRGBA | `true` |
+| postcss-short | `true` |

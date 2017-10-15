@@ -28,11 +28,14 @@
   "dependencies": {
     "postcss": "^6.0.13",
     "postcss-aspect-ratio": "^1.0.2",
+    "postcss-clearfix": "^2.0.1",
     "postcss-extend-rule": "^1.1.0",
     "postcss-get-color": "^0.2.0",
+    "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
     "postcss-property-lookup": "^2.0.0",
-    "rucksack-css": "^1.0.2"
+    "postcss-responsive-type": "^1.0.0",
+    "postcss-short": "^4.1.0"
   },
   "devDependencies": {}
 }
