@@ -1,6 +1,6 @@
 {
   "name": "postcss-partypack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A pack of plugins to add some :tada: to your PostCSS development",
   "main": "index.js",
   "scripts": {
