@@ -12,3 +12,4 @@
 | postcss-responsive-type | `true` |
 | postcss-hexRGBA | `true` |
 | postcss-short | `true` |
+| postcss-family | `true` |
