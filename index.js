@@ -38,6 +38,10 @@ const PLUGINS = [
     {
       option: "clearfix",
       module: require("postcss-clearfix")
+    },
+    {
+      option: "family",
+      module: require("postcss-family")
     }
   ],
   DEFAULTS = {
@@ -49,7 +53,8 @@ const PLUGINS = [
     clearfix: true,
     responsiveType: true,
     hexRGBA: true,
-    shorthand: true
+    shorthand: true,
+    family: true
   };
 
 // Export plugin bundle
@@ -63,5 +68,5 @@ module.exports = postcss.plugin("postcss-partypack", opts => {
     config[plugin.option] && bundle.use(plugin.module);
   });
 
-  return bundle;
+ return bundle;
 });

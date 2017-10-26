@@ -30,6 +30,7 @@
     "postcss-aspect-ratio": "^1.0.2",
     "postcss-clearfix": "^2.0.1",
     "postcss-extend-rule": "^1.1.0",
+    "postcss-family": "^1.0.1",
     "postcss-get-color": "^0.2.0",
     "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
