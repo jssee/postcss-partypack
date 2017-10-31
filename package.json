@@ -1,6 +1,6 @@
 {
   "name": "postcss-partypack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pack of plugins to add some :tada: to your PostCSS development",
   "main": "index.js",
   "scripts": {
@@ -27,15 +27,11 @@
   "homepage": "https://github.com/jssee/postcss-partypack#readme",
   "dependencies": {
     "postcss": "^6.0.13",
-    "postcss-aspect-ratio": "^1.0.2",
-    "postcss-clearfix": "^2.0.1",
     "postcss-extend-rule": "^1.1.0",
     "postcss-family": "^1.0.1",
     "postcss-get-color": "^0.2.0",
-    "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
     "postcss-property-lookup": "^2.0.0",
-    "postcss-responsive-type": "^1.0.0",
     "postcss-short": "^4.1.0"
   },
   "devDependencies": {}

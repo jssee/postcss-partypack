@@ -417,18 +417,6 @@ pngjs@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.3.0.tgz#1f5730c189c94933b81beda2ab2f8e2855263a8f"
 
-postcss-aspect-ratio@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-aspect-ratio/-/postcss-aspect-ratio-1.0.2.tgz#1e5d46ba8e517e11b0b3482ce78c486622f496ad"
-  dependencies:
-    postcss ">=5.0.14 <=6.x"
-
-postcss-clearfix@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-clearfix/-/postcss-clearfix-2.0.1.tgz#5170a1998f167d3190a0173445b6380c8c5c07f2"
-  dependencies:
-    postcss "^6.0.6"
-
 postcss-extend-rule@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/postcss-extend-rule/-/postcss-extend-rule-1.1.0.tgz#11e4d590ffe4253b853ef1fc03be7167da607d38"
@@ -456,12 +444,6 @@ postcss-get-color@^0.2.0:
     path "^0.12.7"
     postcss "^6.0.11"
     postcss-value-parser "^3.3.0"
-
-postcss-hexrgba@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-1.0.0.tgz#b2ab6289221ddc7af400aae11d8c4ce8adffdd85"
-  dependencies:
-    postcss "^6.0.7"
 
 postcss-import@^11.0.0:
   version "11.0.0"
@@ -491,12 +473,6 @@ postcss-property-lookup@^2.0.0:
     object-assign "^4.0.1"
     postcss "^6.0.6"
     tcomb "^3.2.21"
-
-postcss-responsive-type@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-responsive-type/-/postcss-responsive-type-1.0.0.tgz#bb2d57d830beb9586ec4fda7994f07e37953aad8"
-  dependencies:
-    postcss "^6.0.6"
 
 postcss-short-border-radius@^2.0.0:
   version "2.0.0"
@@ -559,7 +535,7 @@ postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
-"postcss@>=5.0.14 <=6.x", postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.13, postcss@^6.0.6, postcss@^6.0.7:
+postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.13, postcss@^6.0.6:
   version "6.0.13"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.13.tgz#b9ecab4ee00c89db3ec931145bd9590bbf3f125f"
   dependencies:
