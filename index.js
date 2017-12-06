@@ -4,7 +4,7 @@ const postcss = require("postcss");
 
 const PLUGINS = [
   {
-    option: "import", // Aleays keep import first, or else it wont work. 
+    option: "import", // Aleays keep import first, or else it wont work.
     module: require("postcss-import")
   },
   {
@@ -14,7 +14,7 @@ const PLUGINS = [
   {
     option: "family",
     module: require("postcss-family")
-  }
+  },
   {
     option: "getColor",
     module: require("postcss-get-color")
