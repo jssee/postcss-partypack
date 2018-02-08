@@ -3,7 +3,7 @@
 
 | Plugin Name | Default |
 | --- | --- |
-| get-color | `true` |
+| postcss-easings| `true` |
 | postcss-extend-rule | `true` |
 | postcss-family | `true` |
 | postcss-import | `true` |

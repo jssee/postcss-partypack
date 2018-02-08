@@ -1,8 +1,7 @@
 {
   "name": "postcss-partypack",
-  "version": "1.0.5",
-  "description":
-    "A pack of plugins to add some :tada: to your PostCSS development",
+  "version": "1.0.6",
+  "description": "A pack of plugins to add some :tada: to your PostCSS development",
   "main": "index.js",
   "scripts": {
     "test": ""
@@ -11,7 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/jssee/postcss-partypack.git"
   },
-  "keywords": ["postcss", "css", "plugin", "fun", "party", "pack", "partypack"],
+  "keywords": [
+    "postcss",
+    "css",
+    "plugin",
+    "fun",
+    "party",
+    "pack",
+    "partypack"
+  ],
   "author": "Jesse Hoyos (github.com/jssee)",
   "license": "MIT",
   "bugs": {
@@ -20,9 +27,9 @@
   "homepage": "https://github.com/jssee/postcss-partypack#readme",
   "dependencies": {
     "postcss": "^6.0.13",
+    "postcss-easings": "^1.0.1",
     "postcss-extend-rule": "^1.1.0",
     "postcss-family": "^1.0.1",
-    "postcss-get-color": "^0.2.0",
     "postcss-import": "^11.0.0",
     "postcss-property-lookup": "^2.0.0",
     "postcss-short": "^4.1.0"
