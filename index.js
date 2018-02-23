@@ -1,45 +1,45 @@
-"use strict";
+'use strict';
 
-const postcss = require("postcss");
+const postcss = require('postcss');
 
 const PLUGINS = [
   {
-    option: "import", // Aleays keep import first, or else it wont work.
-    module: require("postcss-import")
+    option: 'import', // Aleays keep import first, or else it wont work.
+    module: require('postcss-import'),
   },
   {
-    option: "extendRule",
-    module: require("postcss-extend-rule")
+    option: 'extendRule',
+    module: require('postcss-extend-rule'),
   },
   {
-    option: "family",
-    module: require("postcss-family")
+    option: 'family',
+    module: require('postcss-family'),
   },
   {
-    option: "getColor",
-    module: require("postcss-get-color")
+    option: 'propertyLookup',
+    module: require('postcss-property-lookup'),
   },
   {
-    option: "propertyLookup",
-    module: require("postcss-property-lookup")
+    option: 'shorthand',
+    module: require('postcss-short'),
   },
   {
-    option: "shorthand",
-    module: require("postcss-short")
-  }
+    option: 'easings',
+    module: require('postcss-easings'),
+  },
 ];
 
 const DEFAULTS = {
   extendRule: true,
+  easings: true,
   family: true,
-  getColor: true,
   import: true,
   propertyLookup: true,
-  shorthand: true
+  shorthand: true,
 };
 
 // Export plugin bundle
-module.exports = postcss.plugin("postcss-partypack", opts => {
+module.exports = postcss.plugin('postcss-partypack', opts => {
   opts = opts || {};
 
   let config = Object.assign({}, DEFAULTS, opts);
