@@ -42,7 +42,7 @@ lets you use advanced shorthand properties in CSS. Sweet.
 
 You can easily disable individual plugins in the following manner:
 
-```
+```javascript
 // config file
 postcss-partypack: {
   "easings": false,
