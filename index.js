@@ -4,10 +4,6 @@ const postcss = require('postcss');
 
 const PLUGINS = [
   {
-    option: 'import', // Aleays keep import first, or else it wont work.
-    module: require('postcss-import'),
-  },
-  {
     option: 'extendRule',
     module: require('postcss-extend-rule'),
   },
@@ -33,7 +29,6 @@ const DEFAULTS = {
   extendRule: true,
   easings: true,
   family: true,
-  import: true,
   propertyLookup: true,
   shorthand: true,
 };
